@@ -1,55 +1,219 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="utf-8">
-  <meta name="viewport" content="width=device width, initial scale = 1">
-	<title>Homework 1 Our Menu</title>
-	<link rel="stylesheet" type="text/css" href="souction.css">
-</head>
-<body>
-<h2>Our menu!</h1>
-<h2>Lesly Lopez, Kennys Hernandez,!</h2>
-<h2>6to perito en administracion</h2>
-<div class="fili"
-<div id="box">
-<div class="col4 coli6">
-<div id="cosita">
-       <div  id = "highlight"><b>pastel de manzana</b></p></div>
-        <p id="p1"> 
-         se prepara en 5 pasos.
-         <p><b>Ingredientes</p></b>
-         <p>6 onzas de azuacar
-         6 onzas de azúcar regular 6 onzas de azúcar regular = 170 gramos de azúcar regular =aproximadamente 3/4 taza de medir</p>
-         <p>6 onzas de harina de trigo regular (sin preparar) 6 onzas de harina = 170 gramos de harina regular (equivale a aproximadamente 1 1/3 tazas de medir)</p>
-         <p>3 huevos grandes</p>
-         <p>3 manzanas grandes peladas y cortadas en trozos pequeños</p>
-         <p>preparación</p>
-         <p>1.Pre-caliente el horno a 400F grados.</p>
-         <p>2.Use la batidora electica para mezclar los huevos con el azúcar, bátalos durante unos 2 minutos.</p>
-         <p>3.Agregue la harina lentamente, usando una cuchara de madera, revuelva hasta obtener una masa suave.</p>
-         <p>4.Agregue los trozos de manzana, mezcle bien y vierta la masa del pastel en un molde enharinado.</p>
-         <p>5.Hornee durante 5 minutos a 400F, luego baje la temperatura a 350F grados y hornee por 30 minutos o hasta que se dore. Para probar si la torta esta lista, inserte un palillo en el centro, si sale limpio, entonces esta lista.</p>
+ *{
+    background-color: white;
+    box-sizing: border-box; 
+  }
 
+#box{
+    background-color: white;
+    padding:20px;
+   
+}
 
+ 
+h2{
+    margin-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+}
 
-         </p>
-       </div>
-     </div>
-<div class="col4 coli6">
-<div id="cosita">             
-<div id = "highlight2"><b>pollo frito crujiente</b></p></div>
-<p id="p2">
-  Muy fácilmente. Aquí, vamos a preparar un pollo frito crujiente como lo preparan en estados unidos. O muy parecido, al menos
-        <P><b> ingredientes</b></P>
-         <P>1kg de alitas de pollo</P>
-<p>1 vaso de harina de trigo todo uso</p>
-<p>2 vasos de pan rallado o molido</p>
-<p>1 cucharadita de las especias que elijas (cayena o chile en polvo, pimienta negra molida, ajo y cebolla en polvo, paprika)</p>
-<p>1 huevo y 200ml de leche
-sal y pimienta
-aceite para freir</p>
-        </p>
-      </div>
-     </div>
-<div class="col4 coli12">
-<div id="cosita">
+#highlight {
+    background-color: gray;
+    border: 4px solid black;
+    font-size:24px;
+    font-weight: bold;
+    font-color:black;
+    font-style: normal;
+    float: right;
+    padding: 10px 30px 10px 30px;
+}
+#highlight2 {
+    background-color: green;
+    border: 4px solid black;
+    font-size:24px;
+    font-weight: bold;
+    font-color:black;
+    font-style: normal;
+    float: right;
+    padding: 10px 30px 10px 30px;
+}
+#highlight3 {
+     
+    background-color: pink;
+    border: 4px solid black;
+    font-size:24px;
+    font-weight: bold;
+    font-color:black;
+    font-style: normal;
+    float: right;
+    padding: 10px 30px 10px 30px;
+}
+
+ 
+
+#p1 {
+    padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color:gray;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+#p2 {
+     padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color:blue;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    }
+
+#p3 {
+    padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color:cyan;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+   }
+/* RESPONSIVE WORK DEVICE */
+
+.fili {
+  width: 100%;
+}
+@media (min-width:992px)
+{
+.col1, .col2, .col3, .col4, .col5, .col6,.col7, .col8, .col9,.col10, .col11, .col12 {
+  float: left; 
+} 
+.col1{
+  width: 8.33%;
+}
+.col2{
+  width: 16.66%;
+}
+.col3{
+  width: 25%;
+}
+.col4{
+  width: 33.33%;
+}
+.col5{
+  width: 41.66%;
+}
+.col6{
+  width: 50%;
+}
+.col7{
+  width: 58.33%;
+}
+.col8{
+  width: 66.66%;
+}
+.col9{
+  width: 74.99%;
+}
+.col10{
+  width: 83.33%;
+}
+.col11{
+  width: 91.66%;
+}
+.col12{
+  width: 100%;
+}
+       
+}
+@media (min-width:768px) and (max-width:991px)
+{
+.coli1, .coli2, .coli3, .coli4, .coli5, .coli6,.coli7, .coli8, .coli9,.coli10, .coli11, .coli12 {
+  float: left; 
+} 
+.coli1{
+  width: 33.33%;
+}
+.coli2{
+  width: 33.33%;
+}
+.coli3{
+  width: 33.33%;
+}
+.coli4{
+  width: 33.33%;
+}
+.coli5{
+  width: 41.66%;
+}
+.coli6{
+  width: 50%;
+}
+.coli7{
+  width: 58.33%;
+}
+.coli8{
+  width: 66.66%;
+}
+.coli9{
+  width: 74.99%;
+}
+.coli10{
+  width: 83.33%;
+}
+.coli11{
+  width: 91.66%;
+}
+.coli12{
+  width: 100%;
+}
+        
+}
+@media (min-width:767px)
+{
+.colp1, .colp2, .colp3, .colp4, .colp5, .colp6,.colp7, .colp8, .colp9,.colp10, .colp11, .colp12 {
+  float: left; 
+} 
+.colp1{
+  width: 100%;
+}
+.colp2{
+  width: 100%;
+}
+.colp3{
+  width: 100%;
+}
+.colp4{
+  width: 33.33%;
+}
+.colp5{
+  width: 41.66%;
+}
+.colp6{
+  width: 50%;
+}
+.colp7{
+  width: 58.33%;
+}
+.colp8{
+  width: 66.66%;
+}
+.colp9{
+  width: 74.99%;
+}
+.colp10{
+  width: 83.33%;
+}
+.colp11{
+  width: 91.66%;
+}
+.colp12{
+  width: 100%;
+}
+#cosita{
+     position: relative;
+}
+         
+}
