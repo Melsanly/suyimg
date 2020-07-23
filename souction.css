@@ -1,24 +1,29 @@
  *{
-    background-color: white;
-    box-sizing: border-box; 
-  }
-
-#box{
-    background-color: white;
-    padding:20px;
    
+    box-sizing: border-box; 
+
+    
+
+  }
+ body {
+    background-image: url("gif/fondo.gif") ;
+      background-size: cover;
+ 
 }
 
- 
-h2{
+#box,{
+   
+    padding:20px;
+   
     margin-bottom: 30px;
     padding-top: 20px;
     text-align: center;
-    background-color: white;
+    
+
 }
 
 #highlight {
-    background-color: purple;
+    background-color: beige;
     border: 4px solid black;
     font-size:24px;
     font-weight: bold;
@@ -26,20 +31,14 @@ h2{
     font-style: normal;
     float: right;
     padding: 10px 30px 10px 30px;
+    border-radius: 10px
+
+   
 }
-#highlight2 {
-    background-color: pink;
-    border: 4px solid black;
-    font-size:24px;
-    font-weight: bold;
-    font-color:black;
-    font-style: normal;
-    float: right;
-    padding: 10px 30px 10px 30px;
-}
+
 #highlight3 {
      
-    background-color: yellow;
+    background-color: salmon;
     border: 4px solid black;
     font-size:24px;
     font-weight: bold;
@@ -47,39 +46,39 @@ h2{
     font-style: normal;
     float: right;
     padding: 10px 30px 10px 30px;
+    border-radius: 10px
 }
 
  
 
 #p1 {
+
     padding: 60px 20px 10px 20px;
     border: 3px solid;
     font-size:18px;
-    background-color: violet;
+    background-color: coral;
     color:black;
     font-weight: bold;
     font-style: italic;
+border-radius: 20px
+
+
+
   }
 
-#p2 {
-     padding: 60px 20px 10px 20px;
-    border: 3px solid;
-    font-size:18px;
-    background-color:fuchsia;
-    color:black;
-    font-weight: bold;
-    font-style: italic;
-    }
+
 
 #p3 {
     padding: 60px 20px 10px 20px;
     border: 3px solid;
     font-size:18px;
-    background-color:orange;
+    background-color: sandybrown;
     color:black;
     font-weight: bold;
     font-style: italic;
+    border-radius: 20px
    }
+   
 /* RESPONSIVE WORK DEVICE */
 
 .fili {
@@ -87,93 +86,93 @@ h2{
 }
 @media (min-width:992px)
 {
-.col1, .col2, .col3, .col4, .col5, .col6,.col7, .col8, .col9,.col10, .col11, .col12 {
+.col1, .col2, .col3, .col4, .col5, .col6,.col7, .col8, .col9,.col10, .col11, .col12{
   float: left; 
 } 
 .col1{
-  width: 8.33%;
+  width: 100%;
 }
 .col2{
-  width: 16.66%;
+  width: 40.66%;
 }
 .col3{
-  width: 25%;
+  width: 40%;
 }
 .col4{
-  width: 33.33%;
+  width: 47.33%;
 }
 .col5{
-  width: 41.66%;
+  width: 80.66%;
 }
 .col6{
-  width: 50%;
+  width: 70%;
 }
 .col7{
-  width: 58.33%;
+  width: 100.33%;
 }
 .col8{
-  width: 66.66%;
+  width: 80.66%;
 }
 .col9{
-  width: 74.99%;
+  width: 84.99%;
 }
 .col10{
-  width: 83.33%;
+  width: 93.33%;
 }
 .col11{
-  width: 91.66%;
+  width: 100.66%;
 }
 .col12{
   width: 100%;
 }
        
 }
-@media (min-width:768px) and (max-width:991px)
+@media (min-width:780px) and (max-width:991px)
 {
 .coli1, .coli2, .coli3, .coli4, .coli5, .coli6,.coli7, .coli8, .coli9,.coli10, .coli11, .coli12 {
   float: left; 
 } 
 .coli1{
-  width: 33.33%;
+  width: 45.33%;
 }
 .coli2{
-  width: 33.33%;
+  width: 45.33%;
 }
 .coli3{
-  width: 33.33%;
+  width: 45.33%;
 }
 .coli4{
-  width: 33.33%;
+  width: 41.33%;
 }
 .coli5{
-  width: 41.66%;
+  width: 65.66%;
 }
 .coli6{
-  width: 50%;
+  width: 100%;
 }
 .coli7{
-  width: 58.33%;
+  width: 70.33%;
 }
 .coli8{
-  width: 66.66%;
+  width: 52.66%;
 }
 .coli9{
-  width: 74.99%;
+  width: 80.99%;
 }
 .coli10{
-  width: 83.33%;
+  width: 90.33%;
 }
 .coli11{
-  width: 91.66%;
+  width: 100.66%;
 }
 .coli12{
   width: 100%;
 }
         
 }
-@media (min-width:767px)
+@media (min-width:780px)
 {
-.colp1, .colp2, .colp3, .colp4, .colp5, .colp6,.colp7, .colp8, .colp9,.colp10, .colp11, .colp12 {
+.colp1, .colp2, .colp3, .colp4, .colp5, .colp6,.colp7, .colp8, .colp9,.colp10, .colp11, .colp12{
   float: left; 
 } 
 .colp1{
@@ -186,28 +185,28 @@ h2{
   width: 100%;
 }
 .colp4{
-  width: 33.33%;
+  width: 40.33%;
 }
 .colp5{
-  width: 41.66%;
+  width: 60.66%;
 }
 .colp6{
   width: 50%;
 }
 .colp7{
-  width: 58.33%;
+  width: 60.33%;
 }
 .colp8{
-  width: 66.66%;
+  width: 70.66%;
 }
 .colp9{
-  width: 74.99%;
+  width: 80.99%;
 }
 .colp10{
-  width: 83.33%;
+  width: 80.33%;
 }
 .colp11{
-  width: 91.66%;
+  width: 80.66%;
 }
 .colp12{
   width: 100%;
