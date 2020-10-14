@@ -1,0 +1,66 @@
+*
+ body {
+    background-image: url("AAA.jpg") ;
+      background-size: cover;
+     
+ 
+ 
+}
+.p5{
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position:relative;
+	top: 18%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+	background: #009C8C; 
+	color: rgba(255,255,255,.25);
+}
+ 
+#box{
+   
+    padding:20px;
+   
+    margin-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+.r{
+	 padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color: #009C8C;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+border-radius: 20px
+}
+.o{
+
+padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color: #009C8C;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+border-radius: 20px	
+}
+.u{
+
+	padding: 10px 20px 5px 5px;
+    border: 1px solid;
+    font-size:18px;
+    background-color: #009C8C;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+border-radius: 20px	
+}
